@@ -1,9 +1,16 @@
 /* * {
   margin: 0px;
 } */
+
+body {
+  text-align: center;
+}
+
 #container-colors {
   display: flex;
+  justify-content: center;
 }
+
 #ball {
   border: 1px solid black;
   margin: 2px;
@@ -11,5 +18,4 @@
   width: 35px;
   height: 35px;
   border-radius: 50%;
-
 }
