@@ -1,0 +1,15 @@
+/* * {
+  margin: 0px;
+} */
+#container-colors {
+  display: flex;
+}
+#ball {
+  border: 1px solid black;
+  margin: 2px;
+  padding: 1px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+}
