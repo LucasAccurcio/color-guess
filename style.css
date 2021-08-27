@@ -19,3 +19,7 @@ body {
   height: 35px;
   border-radius: 50%;
 }
+
+.ball.selected {
+  border: 2px solid blue;
+}
