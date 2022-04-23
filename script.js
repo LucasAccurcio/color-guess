@@ -4,6 +4,8 @@ const answer = document.getElementById('answer');
 const btnReset = document.getElementById('reset-game');
 const showScore = document.getElementById('score');
 let score = 0;
+// const levelHard = document.getElementById('hard');
+// criar as div por funcão dianamicamente com padrao de 6
 
 function randomColor() {
   const color1 = Math.floor(Math.random() * 256);
@@ -18,8 +20,8 @@ function newColorGuess() {
   return colorGuess;
 }
 
-function randomBall() {
-  const theRigthBall = Math.floor(Math.random() * 6);
+function randomBall(n = 6) {
+  const theRigthBall = Math.floor(Math.random() * n);
   return theRigthBall;
 }
 
